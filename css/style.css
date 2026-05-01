@@ -1,0 +1,73 @@
+.up_wall {
+    position: absolute;
+    top: 0px;
+    width: 8%;
+    right: 10%;
+    height: 25%;
+    background-color: green;
+}
+body {
+    background-color: skyblue;
+    touch-action: manipulation;
+}
+#tepa {
+    width: 10vw;
+    position: absolute;
+    left: 10%;
+    transition: all 0.3s;
+}
+.down_wall {
+    top: 75%;
+    right: 10%;
+    background-color: green;
+    height: 25%;
+    width: 8%;
+    position: absolute;
+}
+.game_play {
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.414);
+    display: inline-block;
+    position: fixed;
+    border-radius: 10px;
+    outline: 1px solid cyan;
+}
+.game_play>button {
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    outline: 1px solid cyan;
+    color: white;
+    transition: all 0.3s;
+}
+.game_play>button:hover {
+    transform: scale(1.2);
+}
+#pelmen {
+    position: absolute;
+    width: 4vw;
+    right: 12%;
+    top: 45%;
+}
+.game_play>h2 {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black;
+    border-radius: 10px;
+    outline: 1px solid cyan;
+    display: inline-block;
+    color: cyan;
+    margin-right: 10px;
+}
+#jump {
+    position: absolute;
+    top: 92%;
+    left: 42%;
+    display: none;
+}
+* {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE 10+ */
+    user-select: none;         /* Стандарт */
+}
